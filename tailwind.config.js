@@ -11,10 +11,6 @@ module.exports = {
         sans: 'var(--font-roboto)',
         alt: 'var(--font-puddles)'
       },
-      backgroundImage: {
-        gradient: 
-          'linear-gradient(to bottom,#5c9e4d, #47a538, #329225, #1c7f13)',
-      },
       colors: {
         gray: {
           50: '#eaeaea',
