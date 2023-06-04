@@ -1,8 +1,15 @@
-export default function Contatos(){
+import { Footer } from "@/components/footer";
+import { NavBar } from "@/components/navBar";
+import Link from "next/link";
+
+export default function Contatos() {
     return (
         <>
-            <h1>hello</h1>
-            <a href="/">voltar a pagina inicial</a>
+            <NavBar></NavBar>
+            <main className="w-screen h-screen">
+                
+            </main>
+            <Footer></Footer>
         </>
     )
 }
