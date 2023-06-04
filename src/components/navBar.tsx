@@ -7,7 +7,6 @@ export function NavBar() {
             <Link href={"/"} className="hover:text-green-500 transition-all duration-300 text-gray-400"><Home /></Link>
             <Link href="/contatos" className="hover:text-green-500 hover:text-[18px] transition-all duration-300 text-gray-400">contatos</Link>
             <Link href="/projects" className="hover:text-green-500 hover:text-[18px] transition-all duration-300 text-gray-400">projetos</Link>
-            <Link href="/hardskills" className="hover:text-green-500 hover:text-[18px] transition-all duration-300 text-gray-400">competencias</Link>
         </nav>
     )
 }
