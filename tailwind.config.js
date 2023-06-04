@@ -27,7 +27,7 @@ module.exports = {
       },
       blur: {
         full: "100px"
-      }
+      },
       
     },
   },

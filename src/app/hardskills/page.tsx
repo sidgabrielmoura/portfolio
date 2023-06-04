@@ -1,5 +1,13 @@
+import { Footer } from "@/components/footer";
+import { NavBar } from "@/components/navBar";
+import Link from "next/link";
+
 export default function Hardskills(){
     return(
-        <h1>hello hardskills</h1>
+        <>
+            <NavBar></NavBar>
+
+            <Footer></Footer>
+        </>
     )
 }

@@ -11,7 +11,12 @@ export default function Home() {
         {/*left*/} 
 
         <div className="w-[60vw] pt-5 bg-gray-900 bg-[url(../assets/bg-stars.svg)] bg-cover">
+
+          {/*blur*/} 
+
           <div className="w-[200px] h-10 bg-green-500 relative bottom-7 m-auto rounded-full blur-full" />
+          
+          {/*text*/}
 
           <div className="pl-[40px]">
             <h1 className="text-[30px] text-green-600 font-extrabold capitalize">Sid Gabriel Barbosa moura</h1>
