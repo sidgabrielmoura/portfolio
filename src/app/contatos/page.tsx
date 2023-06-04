@@ -15,31 +15,32 @@ export default function Contatos() {
 
                 {/*left*/}
 
-                <div className="transition-all bg-[url(../assets/bg-stars.svg)] bg-cover flex items-center duration-300 w-[55vw] p-5 justify-start absolute left-0 h-screen">
+                <div className="bg-[url(../assets/bg-stars.svg)] bg-cover flex items-center 
+                w-[55vw] p-5 justify-start absolute left-0 h-screen">
                     <main className="">
                         <h1 className="text-white text-[30px]">Contate-me <MoveRight></MoveRight></h1>
-                        <section className="flex flex-col ">
+                        <section className="flex flex-col capitalize">
 
                             <label className="mt-4 text-white">email:</label>
-                            <input type="text" className="w-[400px] h-10 rounded-lg bg-transparent
+                            <input type="email" className="w-[400px] h-10 rounded-lg bg-transparent
                             outline-none border-2 text-gray-200 px-5 border-gray-400 hover:border-green-500
                             transition-all duration-200"/>
 
                             <label className="mt-4 text-white">conteudo:</label>
-                            <input type="text" className="w-[400px] h-10 rounded-lg bg-transparent
+                            <textarea className="w-[400px] min-h-[100px] max-h-[200px] py-5 rounded-lg bg-transparent
                             outline-none border-2 text-gray-200 px-5 border-gray-400 hover:border-green-500
                             transition-all duration-200"/>
 
                             <Link href={""} className="mt-4 text-white w-[200px] text-center px-4 py-3.5 rounded-xl bg-green-600
-                            ">Enviar</Link>
+                            hover:bg-green-700 transition-all duration-300 hover:translate-x-3">Enviar</Link>
                         </section>
                     </main>
                 </div>
 
                 {/*right*/}
 
-                <section className=" w-[45vw] h-screen bg-[url(contatos/predio.avif)] bg-cover absolute right-0 hover:w-[50vw]
-                transition-all duration-500"/>
+                <section className=" w-[45vw] h-screen bg-[url(contatos/predio.avif)] bg-cover absolute right-[-17px] hover:w-[50vw]
+                transition-all duration-500 hover:drop-shadow-[0_0_40px_#1c7f13]"/>
             </main>
             <Footer></Footer>
         </>

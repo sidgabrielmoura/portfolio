@@ -1,6 +1,7 @@
 import { Footer } from "@/components/footer";
 import { GameHome } from "@/components/game-home";
 import { NavBar } from "@/components/navBar";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -21,7 +22,9 @@ export default function Home() {
           <div className="pl-[40px]">
             <h1 className="text-[30px] text-green-600 font-extrabold capitalize">Sid Gabriel Barbosa moura</h1>
             <p className="font-sans text-white">front-end developer</p>
+            
           </div>
+          
 
           {/*game*/}
 
