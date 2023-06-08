@@ -38,7 +38,7 @@ export default function MarESol() {
 
                 </div>
 
-                <div className="w-[300px] flex items-center justify-between m-auto">
+                <div className="w-[400px] flex items-center justify-between m-auto">
 
                     <Link href={""} className="text-white text-lg font-semibold hover:text-green-500
                         transition-all duration-300">Visitar Projeto</Link>

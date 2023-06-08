@@ -1,12 +1,8 @@
 import './globals.css'
-import { Roboto, Rubik_Puddles } from 'next/font/google'
+import { Noto_Sans_Adlam } from 'next/font/google'
 
-const roboto = Roboto({ subsets: ['latin'], weight: ['400', '300', '700'], variable: '--font-roboto' })
-const puddles = Rubik_Puddles({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-puddles'
-})
+const NotoSansAdlam = Noto_Sans_Adlam({ subsets: ['latin'], weight: ['400', '700'], variable: '--font-roboto' })
+
 
 export const metadata = {
   title: 'Portfolio - Sid Gabriel',
@@ -19,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className}`}>{children}</body>
+      <body className={`${NotoSansAdlam.className}`}>{children}</body>
     </html>
   )
 }

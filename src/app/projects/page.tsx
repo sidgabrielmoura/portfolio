@@ -10,7 +10,7 @@ export default function Projects(){
 
             {/*blur*/}
 
-                <div className="w-[500px] absolute h-10 bg-green-500 bottom-[-130px] m-auto rounded-full blur-[115px]" />
+                <div className="w-[500px] absolute h-10 bg-green-600 bottom-[-130px] m-auto rounded-full blur-[100px]" />
             
             {/*cards*/}
 
