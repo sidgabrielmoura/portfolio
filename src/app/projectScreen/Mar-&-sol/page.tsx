@@ -22,11 +22,11 @@ export default function MarESol() {
                         <h1 className="text-white text-[30px] font-bold 
                         capitalize">Mar & Sol - <br /> login page</h1>
                         <div className="flex absolute">
-                            <SiTailwindcss className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                            <SiTailwindcss className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                             transition-all duration-300 text-[30px] relative top-[50px]"/>
-                            <SiNextdotjs className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                            <SiNextdotjs className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                             transition-all duration-300 text-[30px] relative top-[50px]"/>
-                            <DiReact className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                            <DiReact className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                             transition-all duration-300 text-[30px] relative top-[50px]"/>
                         </div>
                     </div>
@@ -34,16 +34,16 @@ export default function MarESol() {
 
                     <div className="bg-[url(../assets/Mar&Sol-image.png)] bg-cover w-[750px] h-[380px]
                         absolute right-[100px] rounded-[20px] transition-all duration-500 
-                        hover:drop-shadow-[0_0_50px_#1c7f13] drop-shadow-[0_0_10px_#4d963f] hover:w-[800px] "/>
+                        hover:drop-shadow-[0_0_40px_#99289c] drop-shadow-[0_0_10px_#99289c] hover:w-[800px] "/>
 
                 </div>
 
                 <div className="w-[400px] flex items-center justify-between m-auto">
 
-                    <Link href={""} className="text-white text-lg font-semibold hover:text-green-500
+                    <Link href={""} className="text-white text-lg font-semibold hover:text-violet-800
                         transition-all duration-300">Visitar Projeto</Link>
 
-                    <Link href={"https://github.com/sidgabrielmoura/login-react"} target="_blank" className="text-white text-lg font-semibold hover:text-green-500
+                    <Link href={"https://github.com/sidgabrielmoura/login-react"} target="_blank" className="text-white text-lg font-semibold hover:text-violet-800
                         transition-all duration-300">Visitar Repositório</Link>
 
                 </div>

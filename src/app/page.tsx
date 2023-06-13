@@ -26,31 +26,31 @@ export default function Home() {
 
               {/*blur*/}
 
-              <div className="w-[400px] h-10 bg-green-500 relative bottom-7 m-auto rounded-full blur-full" />
+              <div className="w-[400px] h-10 bg-violet-700 relative bottom-7 m-auto rounded-full blur-full" />
             
               {/*text*/}
 
-              <div className="pl-[40px] pr-[40px]"> 
-                <h1 className="text-[30px] text-green-600 font-extrabold capitalize">Sid Gabriel Barbosa moura</h1>
+              <div className="pl-[40px] pr-[40px] mt-[50px]"> 
+                <h1 className="text-[30px] text-violet-800 font-bold capitalize">Sid Gabriel Barbosa moura</h1>
                 <p className="font-sans text-white">front-end developer</p>
 
                 <section className="flex ">
 
-                  <DiHtml5 className="text-gray-300 hover:text-green-500 hover:text-[35px]
+                  <DiHtml5 className="text-gray-300 hover:text-violet-800 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiCss3 className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                  <DiCss3 className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiBootstrap className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                  <DiBootstrap className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiReact className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                  <DiReact className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiJsBadge className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                  <DiJsBadge className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiGit className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                  <DiGit className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <SiTailwindcss className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                  <SiTailwindcss className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <SiNextdotjs className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
+                  <SiNextdotjs className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
 
                 </section>
@@ -59,7 +59,7 @@ export default function Home() {
 
           </div>
 
-          {/*experiencia*/}
+          {/*experience*/}
 
           <TempoDeExperiencia/>
 
@@ -67,7 +67,8 @@ export default function Home() {
 
         {/*right*/}
 
-        <div className="w-[40vw] bg-[url(../assets/predios.avif)] bg-cover hover:w-[50vw] transition-all duration-500"/>
+        <div className="w-[40vw] bg-[url(../assets/space.jpg)] bg-cover hover:w-[50vw] transition-all duration-500 bg-center
+        opacity-90"/>
  
       </main>
 
