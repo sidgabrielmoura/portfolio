@@ -58,7 +58,7 @@ export default function About(){
                             <p className="text-[17px] sm:text-[13px] md:text-[18px] text-white capitalize px-3 py-1 bg-gray-400 sm:w-[70px] 
                             md:w-[90px] rounded-2xl mb-[10px]">eu sou </p>
                             <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-violet-700 capitalize font-extrabold mb-[20px]">sid gabriel barbosa moura</h1>
-                            <p className="text-[17px] sm:text-[13px] md:text-[18px] text-white capitalize px-3 py-1 bg-gray-400 sm:w-[150px] 
+                            <p className="text-[17px] sm:text-[13px] md:text-[18px] text-white capitalize px-3 py-1 bg-gray-400 sm:w-[180px] 
                             md:w-[200px] rounded-2xl mb-[10px]">e no momento tenho</p>
                             <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-violet-700 capitalize font-extrabold pb-[10px]">17 anos</h1>
 
