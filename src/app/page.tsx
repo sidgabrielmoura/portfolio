@@ -20,19 +20,19 @@ export default function Home() {
         {/*left*/} 
 
         <div className="w-[60vw] pt-5 bg-gray-900 bg-[url(../assets/bg-stars.svg)] bg-cover
-        flex flex-col">
+        flex flex-col sm:w-[100vw] md:w-[70vw] xl:w-[60vw] h-screen">
 
-          <div>
+          {/*blur*/}
 
-              {/*blur*/}
+          <div className="w-[400px] h-10 bg-violet-700 absolute top-[100px] m-auto rounded-full blur-full" />
 
-              <div className="w-[400px] h-10 bg-violet-700 relative bottom-7 m-auto rounded-full blur-full" />
+          <div className="">
             
               {/*text*/}
 
-              <div className="pl-[40px] pr-[40px] mt-[50px]"> 
-                <h1 className="text-[30px] text-violet-800 font-bold capitalize">Sid Gabriel Barbosa moura</h1>
-                <p className="font-sans text-white">front-end developer</p>
+              <div className="pl-[40px] pr-[40px] sm:mt-[50px] md:mt-[150px] xl:mt-[50px] sm:pl-[20px]"> 
+                <h1 className="text-[30px] xl:text-[40px] text-violet-800 font-bold capitalize">Sid Gabriel Barbosa moura</h1>
+                <p className="font-sans text-white xl:text-[18px]">front-end developer</p>
 
                 <section className="flex ">
 
@@ -68,7 +68,7 @@ export default function Home() {
         {/*right*/}
 
         <div className="w-[40vw] bg-[url(../assets/space.jpg)] bg-cover hover:w-[50vw] transition-all duration-500 bg-center
-        opacity-90"/>
+        opacity-90 sm:hidden md:block md:w-[30vw] md:hover:w-[35vw] xl:w-[40vw] xl:hover:w-[45vw]"/>
  
       </main>
 

@@ -18,21 +18,21 @@ export default function Contatos() {
                 <div className="bg-[url(../assets/bg-stars.svg)] bg-cover flex items-center 
                 w-[60vw] p-5 justify-start absolute left-0 h-screen">
                     <main className="">
-                        <h1 className="text-white text-[30px]">Contate-me <MoveRight></MoveRight></h1>
+                        <h1 className="text-white sm:text-[30px] md:text-[40px]">Contate-me <MoveRight></MoveRight></h1>
                         <section className="flex flex-col capitalize">
 
-                            <label className="mt-4 text-white">email:</label>
+                            <label className="sm:mt-4 md:mt-10 text-white">email:</label>
                             <input type="email" className="w-[400px] h-10 rounded-lg bg-transparent
                             outline-none border-2 text-gray-200 px-5 border-gray-400 hover:border-violet-700
-                            transition-all duration-200"/>
+                            transition-all duration-200 sm:w-[250px] sm:h-8 md:w-[300px] lg:w-[400px]"/>
 
-                            <label className="mt-4 text-white">conteudo:</label>
+                            <label className="sm:mt-4 md:mt-10 text-white">conteudo:</label>
                             <textarea className="w-[400px] min-h-[100px] max-h-[200px] py-5 rounded-lg bg-transparent
                             outline-none border-2 text-gray-200 px-5 border-gray-400 hover:border-violet-700
-                            transition-all duration-200"/>
+                            transition-all duration-200 sm:w-[250px] md:w-[300px] lg:w-[400px]"/>
 
-                            <Link href={""} className="mt-4 text-white w-[200px] text-center px-4 py-3.5 rounded-xl bg-violet-600
-                            hover:bg-violet-700 transition-all duration-300 hover:translate-x-3">Enviar</Link>
+                            <Link href={""} className="sm:mt-4 md:mt-8 text-white w-[200px] text-center px-4 py-3.5 rounded-xl bg-violet-600
+                            hover:bg-violet-700 transition-all duration-300 hover:translate-x-3 sm:py-2 sm:w-[150px] md:w-[200px]">Enviar</Link>
                         </section>
                     </main>
                 </div>
@@ -40,7 +40,7 @@ export default function Contatos() {
                 {/*right*/}
 
                 <section className=" w-[40vw] h-screen bg-[url(../assets/stars-img.jpg)] bg-cover absolute right-[-17px] hover:w-[43vw]
-                transition-all duration-500 hover:drop-shadow-[0_0_40px_#99289c] bg-center"/>
+                transition-all duration-500 hover:drop-shadow-[0_0_40px_#99289c] bg-center sm:hidden md:block"/>
             </main>
             <Footer></Footer>
         </>
