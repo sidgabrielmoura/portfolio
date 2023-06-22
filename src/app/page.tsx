@@ -24,7 +24,7 @@ export default function Home() {
 
           {/*blur*/}
 
-          <div className="w-[700px] h-10 bg-green-600 absolute top-[50px] mx-auto rounded-full blur-full" />
+          <div className="w-[400px] h-10 bg-green-600 absolute top-[100px] m-auto rounded-full blur-full" />
 
           <div className="">
             
