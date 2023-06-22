@@ -20,7 +20,7 @@ export default function About(){
                         ">
 
                             <div className="rounded-full bg-[url(../assets/perfil-image.jpeg)]
-                            bg-cover bg-center border-[2px] border-gray-400 drop-shadow-[0_0_15px_#99289c] sm:w-[100px]
+                            bg-cover bg-center border-[2px] border-gray-400 drop-shadow-[0_0_15px_#358f28] sm:w-[100px]
                             sm:h-[100px] md:w-[250px] md:h-[200px]"/>
 
                             <div className="w-[30px] h-[30px] rounded-full bg-green-600 absolute
