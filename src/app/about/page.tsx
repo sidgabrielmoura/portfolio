@@ -12,7 +12,7 @@ export default function About(){
 
                     {/*perfil left*/}
 
-                    <section className="xl:h-screen w-[20vw] relative bg-gray-700 py-[60px] px-[20px] overflow-auto
+                    <section className="xl:h-screen w-[20vw] relative bg-gray-900 py-[60px] px-[20px] overflow-auto
                     xl:overflow-hidden xl:w-[40vw] sm:w-[100vw] sm:h-[28vh] sm:overflow-hidden sm:flex
                     sm:flex-row sm:py-[30px] md:items-center md:justify-between xl:flex-col xl:justify-center">
                         
@@ -32,15 +32,15 @@ export default function About(){
                         <div className="flex sm:w-[400px] md:w-[400px] xl:w-[250px] h-[100px] p-[20px] justify-between mt-[150px] sm:mt-0 md:mt-[150px]">
                             
                             <a href="https://github.com/sidgabrielmoura" target={"_blank"}>
-                                <FaGithub className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[35px] hover:text-violet-800
+                                <FaGithub className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[35px] hover:text-green-600
                                 "/>
                             </a>
                             <a href="https://linkedin.com/in/sid-gabriel-barbosa-moura-347474253" target={"_blank"}>
-                              <FaLinkedin className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[35px] hover:text-violet-800
+                              <FaLinkedin className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[35px] hover:text-green-600
                                 "/>  
                             </a>
                             <a href="https://instagram.com/xgabriel._.mourax/" target={"_blank"}> 
-                                <FaInstagram className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[35px] hover:text-violet-800
+                                <FaInstagram className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[35px] hover:text-green-600
                                 "/>
                             </a>
                            
@@ -50,17 +50,17 @@ export default function About(){
                     
                     {/*right*/}
 
-                    <section className="h-screen w-[80vw] bg-gray-900 bg-[url(../assets/bg-stars.svg)] overflow-auto
+                    <section className="h-screen w-[80vw] bg-gray-950 bg-[url(../assets/bg-stars.svg)] overflow-auto
                     xl:overflow-hidden sm:w-[100vw]">
 
                         <div className="w-100 h-screen flex flex-col px-[20px] py-[60px] sm:py-[30px] md:py-[60px]">
-                            <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-violet-700 capitalize font-extrabold mb-[10px]">olá!</h1>
+                            <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-green-600 capitalize font-extrabold mb-[10px]">olá!</h1>
                             <p className="text-[17px] sm:text-[13px] md:text-[18px] text-white capitalize px-3 py-1 bg-gray-400 sm:w-[70px] 
                             md:w-[90px] rounded-2xl mb-[10px]">eu sou </p>
-                            <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-violet-700 capitalize font-extrabold mb-[20px]">sid gabriel barbosa moura</h1>
+                            <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-green-600 capitalize font-extrabold mb-[20px]">sid gabriel barbosa moura</h1>
                             <p className="text-[17px] sm:text-[13px] md:text-[18px] text-white capitalize px-3 py-1 bg-gray-400 sm:w-[180px] 
                             md:w-[200px] rounded-2xl mb-[10px]">e no momento tenho</p>
-                            <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-violet-700 capitalize font-extrabold pb-[10px]">17 anos</h1>
+                            <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-green-600 capitalize font-extrabold pb-[10px]">17 anos</h1>
 
                             <p className="text-[17px] md:text-[20px] sm:text-[13px] text-white capitalize mt-10 pb-10 ">
                                 🚀sou uma pessoa proativa, esforçada e de boa convivência,<br />
@@ -70,7 +70,7 @@ export default function About(){
                         
                         {/*blur*/}
 
-                        <div className="w-10 h-[300px] bg-violet-800 absolute right-0 top-[200px] my-auto 
+                        <div className="w-10 h-[300px] bg-green-500 absolute right-0 top-[200px] my-auto 
                         rounded-full blur-full"/>
 
                     </section>

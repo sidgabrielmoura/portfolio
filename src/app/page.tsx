@@ -19,38 +19,38 @@ export default function Home() {
 
         {/*left*/} 
 
-        <div className="w-[60vw] pt-5 bg-gray-900 bg-[url(../assets/bg-stars.svg)] bg-cover
+        <div className="w-[60vw] pt-5 bg-gray-950 bg-[url(../assets/bg-stars.svg)] bg-cover
         flex flex-col sm:w-[100vw] md:w-[70vw] xl:w-[60vw] h-screen">
 
           {/*blur*/}
 
-          <div className="w-[400px] h-10 bg-violet-700 absolute top-[100px] m-auto rounded-full blur-full" />
+          <div className="w-[700px] h-10 bg-green-600 absolute top-[50px] mx-auto rounded-full blur-full" />
 
           <div className="">
             
               {/*text*/}
 
               <div className="pl-[40px] pr-[40px] sm:mt-[50px] md:mt-[150px] xl:mt-[50px] sm:pl-[20px]"> 
-                <h1 className="text-[30px] xl:text-[40px] text-violet-800 font-bold capitalize">Sid Gabriel Barbosa moura</h1>
+                <h1 className="text-[30px] xl:text-[40px] text-green-500 font-bold capitalize">Sid Gabriel Barbosa moura</h1>
                 <p className="font-sans text-white xl:text-[18px]">front-end developer</p>
 
                 <section className="flex ">
 
-                  <DiHtml5 className="text-gray-300 hover:text-violet-800 hover:text-[35px]
+                  <DiHtml5 className="text-gray-300 hover:text-green-500 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiCss3 className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
+                  <DiCss3 className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiBootstrap className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
+                  <DiBootstrap className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiReact className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
+                  <DiReact className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiJsBadge className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
+                  <DiJsBadge className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <DiGit className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
+                  <DiGit className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <SiTailwindcss className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
+                  <SiTailwindcss className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
-                  <SiNextdotjs className="text-gray-300 ml-[5px] hover:text-violet-800 hover:text-[35px]
+                  <SiNextdotjs className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
                   transition-all duration-300 text-[30px] relative top-[50px]"/>
 
                 </section>
