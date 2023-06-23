@@ -12,7 +12,9 @@ export default function MarESol() {
             bg-contain">
                 
                 {/*blur*/}
+                <div className="w-screen h-screen flex justify-center">
                     <div className="w-[700px] h-10 bg-green-600 absolute top-[50px] mx-auto rounded-full blur-full" />
+                </div>
 
                 
 
