@@ -48,9 +48,7 @@ export default function MarESol() {
                 </div>
                 {/*last page*/}
 
-                
-
-                <div className="md:w-[400px] sm:w-[250px] flex items-center justify-between m-auto">
+                <div className="md:w-[400px] sm:w-[250px] flex items-center justify-between sm:relative sm:m-auto sm:mb-20">
 
                     <Link href={"https://login-react-nine.vercel.app"} className="text-white md:text-lg sm:text-sm font-semibold hover:text-green-500
                         transition-all duration-300">Visitar Projeto</Link>
