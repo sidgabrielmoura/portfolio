@@ -23,12 +23,12 @@ export default function Contatos() {
 
                             <label className="sm:mt-4 md:mt-10 text-white">email:</label>
                             <input type="email" className="w-[400px] h-10 rounded-lg bg-transparent
-                            outline-none border-2 text-gray-200 px-5 border-gray-400 hover:border-green-600
+                            outline-none border-2 text-gray-100 px-5 border-gray-400 hover:border-green-600
                             transition-all duration-200 sm:w-[250px] sm:h-8 md:w-[300px] lg:w-[400px]"/>
 
                             <label className="sm:mt-4 md:mt-10 text-white">conteudo:</label>
                             <textarea className="w-[400px] min-h-[100px] max-h-[200px] py-5 rounded-lg bg-transparent
-                            outline-none border-2 text-gray-200 px-5 border-gray-400 hover:border-green-600
+                            outline-none border-2 text-gray-100 px-5 border-gray-400 hover:border-green-600
                             transition-all duration-200 sm:w-[250px] md:w-[300px] lg:w-[400px]"/>
 
                             <Link href={""} className="sm:mt-4 md:mt-8 text-white w-[200px] text-center px-4 py-3.5 rounded-xl bg-green-600
