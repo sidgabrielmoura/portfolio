@@ -12,7 +12,7 @@ export function MoreProjectCards() {
                 <div className="px-[10px] mt-[200px] flex flex-col h-[80px] w-[300px] text-center">
                     <h1 className="text-white">Mar & Sol</h1>
 
-                    <Link href="/projectScreen/Mar-&-sol" target={'_blank'} className="flex items-center justify-center hover:text-green-500 transition-all duration-300
+                    <Link href="/projectScreen/Mar-&-sol" className="flex items-center justify-center hover:text-green-500 transition-all duration-300
                             text-gray-400">Ver Mais</Link>
                 </div>
 

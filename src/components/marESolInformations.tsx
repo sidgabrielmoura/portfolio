@@ -37,7 +37,7 @@ export function MarESolInfo() {
             </div>
             <div className="md:w-[400px] sm:w-[250px] flex items-center justify-between sm:relative sm:m-auto sm:mb-20">
 
-                <Link href={"https://login-react-nine.vercel.app"} className="text-white md:text-lg sm:text-sm font-semibold hover:text-green-500
+                <Link href={"https://login-react-nine.vercel.app"} target="_blank" className="text-white md:text-lg sm:text-sm font-semibold hover:text-green-500
                 transition-all duration-300">Visitar Projeto</Link>
 
                 <Link href={"https://github.com/sidgabrielmoura/login-react"} target="_blank" className="text-white md:text-lg sm:text-sm font-semibold hover:text-green-500
