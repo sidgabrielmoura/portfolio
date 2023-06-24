@@ -4,7 +4,7 @@ export function AboutLeftArea() {
     return (
         <>
             <section className="xl:h-screen w-[20vw] relative bg-gray-900 py-[60px] px-[20px] overflow-auto
-                    xl:overflow-hidden xl:w-[40vw] sm:w-[100vw] sm:h-[28vh] sm:overflow-hidden sm:flex
+                    xl:overflow-hidden xl:w-[40vw] sm:w-[100vw] sm:h-[20vh] sm:overflow-hidden sm:flex
                     sm:flex-row sm:py-[30px] md:items-center md:justify-between xl:flex-col xl:justify-center">
 
                 <div className="h-[200px] sm:w-[100px] md:w-[150px] md:h-[200px] flex justify-center sm:justify-start sm:mt-0 md:justify-center

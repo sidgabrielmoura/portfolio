@@ -17,7 +17,7 @@ export default function Home() {
         {/*right*/}
 
         <div className="w-[40vw] bg-[url(../assets/space.jpg)] bg-cover hover:w-[50vw] transition-all duration-500 bg-center
-        opacity-90 sm:hidden md:block md:w-[30vw] md:hover:w-[35vw] xl:w-[40vw] xl:hover:w-[45vw]"/>
+        opacity-90 sm:hidden xl:block xl:w-[40vw] xl:hover:w-[45vw]"/>
 
       </main>
       <Footer></Footer>
