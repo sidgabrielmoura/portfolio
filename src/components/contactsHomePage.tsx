@@ -3,7 +3,7 @@ import { FaDiscord, FaLinkedin } from "react-icons/fa";
 
 export function ContactsHomePage(){
     return(
-        <div className="h-[30vh] w-[100vw] mx-auto flex flex-col justify-center items-center">
+        <div className="h-[30vh] sm:w-[100vw] xl:w-[40vw] sm:mx-auto xl:mx-10 pb-5 flex flex-col justify-center items-center">
                 <div className="flex">
                     <Link href={"https://discord.gg/4hPMkwwn"} target="_blank" className="flex p-3 bg-zinc-800 rounded-full
                     hover:ml-10 transition-all duration-200 hover:drop-shadow-[0_0_20px_#358f28] xl:w-[40vw]
