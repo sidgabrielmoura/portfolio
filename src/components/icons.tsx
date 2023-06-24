@@ -3,7 +3,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 export function Icons() {
   return (
-    <div className="pl-[40px] pr-[40px] sm:mt-[50px] md:mt-[150px] xl:mt-[50px] sm:pl-[20px]
+    <div className="pl-[40px] pr-[40px] sm:mt-[50px] md:mt-[20px] xl:mt-[50px] sm:pl-[20px]
     md:pl-[50px]">
       <h1 className=" md:text-[50px] sm:text-[25px] xl:text-[40px] text-green-500 font-bold capitalize">Sid Gabriel Barbosa moura</h1>
       <p className="font-sans text-white xl:text-[18px] md:text-[20px]">front-end developer</p>

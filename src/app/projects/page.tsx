@@ -8,7 +8,7 @@ export default function Projects(){
         <>
            <NavBar></NavBar>
            <main className="flex w-screen h-screen px-[20px] justify-around items-center bg-gray-950 bg-[url(../assets/bg-stars.svg)] bg-contain
-           sm:flex-col sm:px-[10px] overflow-auto md:flex-row">
+           sm:flex-col sm:px-[10px] xl:flex-row">
 
             {/*blur*/}
 

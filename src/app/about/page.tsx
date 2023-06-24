@@ -1,4 +1,4 @@
-import { AboutLeftArea } from "@/components/aboutLeftArea";
+import { AboutPerfilArea } from "@/components/aboutPerfilArea";
 import { AboutRightArea } from "@/components/aboutRightArea";
 import { Footer } from "@/components/footer";
 import { NavBar } from "@/components/navBar";
@@ -14,7 +14,7 @@ export default function About(){
 
                     {/*perfil left*/}
 
-                    <AboutLeftArea/>
+                    <AboutPerfilArea/>
                     
                     {/*right*/}
 
