@@ -3,7 +3,7 @@ import { Home } from "lucide-react"
 
 export function NavBar() {
     return (
-        <nav className='flex text-[17px] border-b-[1.5px] border-green-600 relative z-10 bg-gray-700 w-screen h-[10vh] items-center text-white justify-around px-10
+        <nav className='flex text-[17px] border-b-[1.5px] border-green-600 relative z-10 bg-gray-700 w-[100%] h-[10vh] items-center text-white justify-around px-10
         sm:px-5 sm:pr-10'>
 
             <Link href={"/"} className="hover:text-green-600 transition-all duration-300 text-gray-300

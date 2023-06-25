@@ -10,7 +10,7 @@ export default function About(){
         <>
             <NavBar/>
             
-                <main className="flex w-screen h-screen sm:flex-col xl:flex-row">
+                <main className="flex w-[100%] h-screen sm:flex-col xl:flex-row">
 
                     {/*perfil left*/}
 

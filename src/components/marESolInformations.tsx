@@ -6,7 +6,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 export function MarESolInfo() {
     return (
         <>
-            <div className="w-screen pl-5 h-screen absolute">
+            <div className="w-[100%] pl-5 h-screen absolute">
                 <Link href={"/projects"} className="text-gray-200 capitalize
             h-[20px] w-[200px] hover:text-gray-100 transition-all duration-300
             z-10"><ArrowLeft />voltar a tela de projetos</Link>

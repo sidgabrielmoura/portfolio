@@ -11,21 +11,28 @@ export function Icons() {
       <section className="flex ">
 
         <DiHtml5 className="text-gray-300 hover:text-green-500 hover:text-[35px]
-                  transition-all duration-300 text-[30px] md:text-[40px] relative top-[50px]"/>
+                  transition-all duration-300 text-[30px] md:text-[40px] xl:text-[30px] relative top-[50px]"/>
+
         <DiCss3 className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
-                  transition-all duration-300 text-[30px] relative top-[50px] md:text-[40px]"/>
+                  transition-all duration-300 text-[30px] relative top-[50px] xl:text-[30px] md:text-[40px]"/>
+
         <DiBootstrap className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
-                  transition-all duration-300 text-[30px] relative top-[50px] md:text-[40px]"/>
+                  transition-all duration-300 text-[30px] relative top-[50px] xl:text-[30px] md:text-[40px]"/>
+
         <DiReact className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
-                  transition-all duration-300 text-[30px] relative top-[50px] md:text-[40px]"/>
+                  transition-all duration-300 text-[30px] relative top-[50px] xl:text-[30px] md:text-[40px]"/>
+
         <DiJsBadge className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
-                  transition-all duration-300 text-[30px] relative top-[50px] md:text-[40px]"/>
+                  transition-all duration-300 text-[30px] relative top-[50px] xl:text-[30px] md:text-[40px]"/>
+
         <DiGit className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
-                  transition-all duration-300 text-[30px] relative top-[50px] md:text-[40px]"/>
+                  transition-all duration-300 text-[30px] relative top-[50px] xl:text-[30px] md:text-[40px]"/>
+
         <SiTailwindcss className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
-                  transition-all duration-300 text-[30px] relative top-[50px] md:text-[40px]"/>
+                  transition-all duration-300 text-[30px] relative top-[50px] xl:text-[30px] md:text-[40px]"/>
+
         <SiNextdotjs className="text-gray-300 ml-[5px] hover:text-green-500 hover:text-[35px]
-                  transition-all duration-300 text-[30px] relative top-[50px] md:text-[40px]"/>
+                  transition-all duration-300 text-[30px] relative top-[50px] xl:text-[30px] md:text-[40px]"/>
 
       </section>
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function MoreProjectCards() {
     return (
-        <div className="sm:h-screen xl:h-[150vh] w-screen px-14 xl:grid-cols-3 xl:grid-rows-3 xl:gap-24 xl:grid
+        <div className="sm:h-screen xl:h-[150vh] w-[100%] px-14 xl:grid-cols-3 xl:grid-rows-3 xl:gap-24 xl:grid
                 sm:flex sm:flex-row sm:m-2 sm:overflow-x-auto sm:items-center xl:overflow-hidden py-14">
 
             <section className="w-[300px] h-[300px] border-2 border-gray-200 rounded-[20px]
