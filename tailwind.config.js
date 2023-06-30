@@ -40,7 +40,8 @@ module.exports = {
         'xl': '1024px',
 
         '2xl': '1280px',
-      }
+      },
+      
     },
   },
   plugins: [
