@@ -1,7 +1,7 @@
 import './globals.css'
-import { Noto_Sans_Adlam } from 'next/font/google'
+import { Noto_Sans } from 'next/font/google'
 
-const NotoSansAdlam = Noto_Sans_Adlam({ subsets: ['latin'], weight: ['400', '700'], variable: '--font-noto' })
+const NotoSans = Noto_Sans({ subsets: ['latin'], weight: ['400', '700'], variable: '--font-noto' })
 
 
 export const metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${NotoSansAdlam.className} font-noto`}>{children}</body>
+      <body className={`${NotoSans.className} font-noto`}>{children}</body>
     </html>
   )
 }
