@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${NotoSans.className} font-noto`}>{children}</body>
+      <body className={`${NotoSans.className} font-[var(--font-noto)]`}>{children}</body>
     </html>
   )
 }

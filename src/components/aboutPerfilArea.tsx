@@ -24,15 +24,15 @@ export function AboutPerfilArea() {
                 <div className="flex sm:w-[400px] md:w-[400px] xl:w-[250px] h-[100px] p-[20px] justify-between mt-[150px] sm:mt-0 md:mt-[150px]">
 
                     <a href="https://github.com/sidgabrielmoura" target={"_blank"}>
-                        <FaGithub className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[35px] hover:text-main
+                        <FaGithub className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[32px] hover:text-main
                                 "/>
                     </a>
                     <a href="https://linkedin.com/in/sid-gabriel-barbosa-moura-347474253" target={"_blank"}>
-                        <FaLinkedin className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[35px] hover:text-main
+                        <FaLinkedin className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[32px] hover:text-main
                                 "/>
                     </a>
                     <a href="https://instagram.com/xgabriel._.mourax/" target={"_blank"}>
-                        <FaInstagram className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[35px] hover:text-main
+                        <FaInstagram className="text-white transition-all duration-300 cursor-pointer sm:text-[30px] md:text-[40px] xl:text-[32px] hover:text-main
                                 "/>
                     </a>
 

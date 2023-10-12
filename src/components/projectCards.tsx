@@ -24,7 +24,7 @@ export function ProjectCards() {
 				<section className="w-[300px] h-[300px] border-2 border-gray-200 rounded-[20px]
 					flex hover:w-[380px] transition-all duration-300 cursor-pointer
 					bg-[url(../assets/fast-cube-img.png)] hover:drop-shadow-[0_0_40px_#d78b17] bg-contain bg-no-repeat justify-center
-					sm:w-[200px] sm:hover:w-[230px] sm:h-[200px] sm:mt-14 md:mt-0 xl:w-[300px] xl:h-[300px] xl:hover:w-[330px]">
+					sm:w-[200px] sm:hover:w-[230px] sm:h-[200px] md:mt-0 xl:w-[300px] xl:h-[300px] xl:hover:w-[330px]">
 
 					<div className="px-[10px] mt-[200px] flex flex-col h-[80px] w-[300px] text-center sm:mt-[130px]
 							md:mt-[140px] xl:mt-[180px]">
