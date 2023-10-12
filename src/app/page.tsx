@@ -15,9 +15,9 @@ export default function Home() {
         <HomePageLeftArea />
 
         {/*right*/}
-
-        <div className="bg-[url(../assets/space.jpg)] bg-cover hover:w-[50vw] transition-all duration-500 bg-center
-        opacity-90 sm:hidden xl:block xl:w-[40vw] xl:hover:w-[45vw]"/>
+        
+          <div className="bg-[url(../assets/space.jpg)] bg-cover bg-center opacity-90 sm:hidden xl:block xl:w-[40vw]"/>
+        
 
       </main>
       <Footer></Footer>

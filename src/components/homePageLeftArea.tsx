@@ -9,7 +9,7 @@ export function HomePageLeftArea() {
 
       {/*blur*/}
 
-      <div className="w-[400px] h-10 bg-green-600 absolute top-[100px] m-auto rounded-full blur-full" />
+      <div className="w-[400px] h-10 bg-secondary absolute xl:left-[170px] top-[100px] m-auto rounded-full blur-full" />
 
       {/*text*/}
 

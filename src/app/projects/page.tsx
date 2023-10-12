@@ -12,7 +12,7 @@ export default function Projects(){
 
             {/*blur*/}
 
-                <div className="w-[500px] fixed h-10 bg-green-500 bottom-0 m-auto rounded-full blur-[100px]" />
+                <div className="w-[500px] fixed h-10 bg-secondary bottom-0 m-auto rounded-full blur-[100px]" />
             
             {/*cards*/}
 
@@ -23,7 +23,7 @@ export default function Projects(){
 
             </main>
             <div className="w-[100%] bg-gray-950 flex justify-center p-[10px]">
-                <Link href={"/moreProjects"} className="text-white z-10 px-[20px] py-[10px] border rounded-lg text-sm border-gray-400 hover:text-green-500
+                <Link href={"/moreProjects"} className="text-white z-10 px-[20px] py-[10px] border rounded-lg text-sm border-gray-400 hover:text-main
                 transition-all duration-300 hover:px-[60px]">Ver Mais</Link>
             </div>
            <Footer></Footer>

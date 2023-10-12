@@ -23,6 +23,8 @@ module.exports = {
           800: '#18181b',
           900: '#121215',
          },
+         'main': '#d78b17',
+         'secondary': '#fea613',
       },
       blur: {
         full: "100px"
@@ -39,7 +41,7 @@ module.exports = {
   
         'xl': '1024px',
 
-        '2xl': '1280px',
+        '2xl': '1490px',
       },
       
     },

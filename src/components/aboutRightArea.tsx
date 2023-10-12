@@ -4,13 +4,13 @@ export function AboutRightArea() {
                     xl:overflow-hidden sm:w-[100vw]">
 
             <div className="w-100 h-screen flex flex-col px-[20px] py-[60px] sm:py-[30px] md:py-[60px]">
-                <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-green-600 capitalize font-extrabold mb-[10px]">olá!</h1>
+                <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-main capitalize font-extrabold mb-[10px]">olá!</h1>
                 <p className="text-[17px] sm:text-[13px] md:text-[18px] text-white capitalize px-3 py-1 bg-gray-400 sm:w-[70px] 
                             md:w-[90px] rounded-2xl mb-[10px]">eu sou </p>
-                <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-green-600 capitalize font-extrabold mb-[20px]">sid gabriel barbosa moura</h1>
+                <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-main capitalize font-extrabold mb-[20px]">sid gabriel barbosa moura</h1>
                 <p className="text-[17px] sm:text-[13px] md:text-[18px] text-white capitalize px-3 py-1 bg-gray-400 sm:w-[180px] 
                             md:w-[200px] rounded-2xl mb-[10px]">e no momento tenho</p>
-                <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-green-600 capitalize font-extrabold pb-[10px]">17 anos</h1>
+                <h1 className="text-[50px] sm:text-[30px] md:text-[50px] text-main capitalize font-extrabold pb-[10px]">17 anos</h1>
 
                 <p className="text-[17px] md:text-[20px] sm:text-[13px] text-white capitalize mt-10 pb-10 ">
                     🚀sou uma pessoa proativa, esforçada e de boa convivência,<br />
@@ -20,7 +20,7 @@ export function AboutRightArea() {
 
             {/*blur*/}
 
-            <div className="w-10 h-[300px] bg-green-500 absolute right-0 top-[200px] my-auto 
+            <div className="w-10 h-[300px] bg-main absolute right-0 top-[200px] my-auto 
                         rounded-full blur-full"/>
 
         </section>

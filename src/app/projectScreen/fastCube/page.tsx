@@ -9,7 +9,7 @@ export default function FastCubePage(){
                 
                 {/*blur*/}
                 <div className="w-screen flex justify-center">
-                    <div className="md:w-[700px] sm:w-screen h-10 bg-green-600 absolute top-[50px] mx-auto rounded-full blur-full" />
+                    <div className="md:w-[700px] sm:w-screen h-10 bg-main absolute top-[50px] mx-auto rounded-full blur-full" />
                 </div>
 
                 
