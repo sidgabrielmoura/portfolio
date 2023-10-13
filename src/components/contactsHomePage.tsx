@@ -7,7 +7,7 @@ export function ContactsHomePage(){
         <div className="h-[30vh] sm:w-[100vw] xl:w-[90%] sm:mx-auto xl:mx-10 md:mb-12 sm:pt-[100px] md:pt-0 flex sm:flex-col xl:flex-row sm:justify-center xl:justify-between items-center
         ">
                 <div className="flex">
-                    <Link href={"https://discord.gg/4hPMkwwn"} target="_blank" className="flex p-3 bg-zinc-800 rounded-full
+                    <Link href={"/gmail"} className="flex p-3 bg-zinc-800 rounded-full
                     transition-all duration-200 hover:drop-shadow-[0_0_10px_#d78b17] xl:w-[26vw]
                     justify-center md:w-[90vw] sm:w-[75vw]">
                         <p className="xl:text-[17px] font-semibold text-gray-200

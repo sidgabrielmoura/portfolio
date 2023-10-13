@@ -30,6 +30,8 @@ module.exports = {
         full: "100px"
       },
       screens: {
+        '2sm': '300px',
+
         'sm': '320px',
         // => @media (min-width: 640px) { ... }
   
